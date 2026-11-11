@@ -106,16 +106,16 @@ The agent exposes compliant Model Context Protocol tools for orchestrators (e.g.
 
 ### 1. Clone & Enter Directory
 ```bash
-git clone https://github.com/shayan-solana/oobe-capital-agent.git
+git clone https://github.com/ShayanMuhammad-CS/oobe-capital-agent.git
 cd oobe-capital-agent
 ```
 
-### 2. Run the Harsh Test Suite (25 Tests)
+### 2. Run the Harsh Test Suite (26 Tests)
 ```bash
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-All 25 tests pass covering:
+All 26 tests pass covering:
 - Zero & negative trade rejection
 - Single trade & reserve floor boundary enforcement
 - Rolling 24h volume tracking
