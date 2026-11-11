@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oobe-capital-agent"
+version = "1.0.0"
+description = "Autonomous Capital & Treasury Agent on Solana with Verifiable Merkle Execution and Hard Risk Guardrails"
+readme = "README.md"
+authors = [{ name = "Shayan Muhammad" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+oobe-agent = "cli:main"

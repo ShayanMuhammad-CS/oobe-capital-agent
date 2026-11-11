@@ -1,0 +1,6 @@
+# OOBE Protocol: Autonomous Capital Agent Dependencies
+# Core agent architecture utilizes standard library cryptography and JSON-RPC
+# Optional external bindings for live mainnet RPC broadcasting:
+requests>=2.31.0
+solders>=0.21.0
+solana>=0.34.0

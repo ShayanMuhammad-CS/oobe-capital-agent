@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "merkle_root": "7ebc5fa2895b8e861cd303380d195a4275fd6a942ff973fc18d28aeb2afba979",
+  "total_receipts": 1,
+  "receipts": [
+    {
+      "action": "AUTONOMOUS_CYCLE",
+      "status": "CONFIRMED",
+      "timestamp": 1794427000.2144532,
+      "receipt_hash": "7ebc5fa2895b8e861cd303380d195a4275fd6a942ff973fc18d28aeb2afba979",
+      "details": {
+        "strategy": "TreasuryRebalancer",
+        "result": {
+          "action": "REBALANCE_SELL_SOL",
+          "sol_sold": 5.0,
+          "target_sol_to_sell": 5.0,
+          "tranched": false,
+          "usd_rebalanced": 900.0,
+          "swap_result": {
+            "status": "CONFIRMED",
+            "transaction_type": "JUPITER_SWAP",
+            "signature": "JUP4_9885078f443dbb076c90c2239957165bee72918c35070abdd735e5795f70d0fc",
+            "route": "SOL -> USDC",
+            "input_amount": 5.0,
+            "output_amount": 897.75,
+            "effective_rate": 179.55,
+            "slippage_bps": 25,
+            "fee_sol": 1e-05,
+            "balances": {
+              "SOL": 19.99999,
+              "USDC": 2397.75,
+              "BONK": 50000000.0
+            }
+          },
+          "new_allocation": {
+            "total_usd": 5997.75,
+            "sol_value_usd": 3600.0,
+            "usdc_value_usd": 2397.75,
+            "current_sol_weight": 0.6002,
+            "target_sol_weight": 0.6,
+            "drift": 0.0002,
+            "requires_rebalance": false
+          }
+        },
+        "portfolio_before": {
+          "SOL": 25.0,
+          "USDC": 1500.0,
+          "BONK": 50000000.0
+        }
+      }
+    }
+  ]
+}
