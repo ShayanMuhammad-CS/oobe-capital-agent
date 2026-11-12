@@ -1,5 +1,11 @@
 # 🦅 OOBE Autonomous Capital & Treasury Agent on Solana
 
+[![CI Suite](https://github.com/ShayanMuhammad-CS/oobe-capital-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/ShayanMuhammad-CS/oobe-capital-agent/actions/workflows/ci.yml)
+![Solana](https://img.shields.io/badge/Solana-Mainnet--Ready-9945FF?logo=solana&logoColor=white)
+![SAP / MCP](https://img.shields.io/badge/Protocol-SAP%20%7C%20MCP%20JSON--RPC-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 > **Production-grade, verifiable autonomous capital management agent conforming to the OOBE Protocol and Solana Agent Protocol (SAP) / Model Context Protocol (MCP) specifications.**
 
 ---
